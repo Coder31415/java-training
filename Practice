@@ -9,5 +9,23 @@ System.out.println("The length of the txt string is: " + txt.length());
   String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
   int num = 65;
   System.out.println(txt + num + " this is a random text");
+  
+//boolean operations
+  int num1 = 19;
+  int num2 = 45;
+  System.out.println(num1>num2);
+  
+//if else statements
+  int num1 = 4;
+  int num2 = 4;
+  if (num1 > num2) {
+     System.out.println("good");
+   } else if (num1 == num2) {
+  System.out.println("neutral");
+  } else {
+  System.out.println("bad");
+  }
+       
+  
 
 
