@@ -5,5 +5,9 @@
 String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 System.out.println("The length of the txt string is: " + txt.length());
 
-// Addition
+// Addition of a string and an int
+  String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
+  int num = 65;
+  System.out.println(txt + num + " this is a random text");
+
 
