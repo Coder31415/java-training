@@ -25,7 +25,14 @@ System.out.println("The length of the txt string is: " + txt.length());
   } else {
   System.out.println("bad");
   }
-       
-  
+ 
+ //looping statements
+   int ar[] = {5,4,3,2,1};
+   int i, x;
+   for(i = 0; i < ar.length;i++){
+   x = ar[i];
+   System.out.println(x);
+           
+ //
 
 
