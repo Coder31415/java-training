@@ -33,6 +33,24 @@ System.out.println("The length of the txt string is: " + txt.length());
    x = ar[i];
    System.out.println(x);
            
- //
+//Bufferreader
+(new InputStreamReader(System.in));
+        String name = reader.readLine();
+        System.out.println(name);
+        
+//swap numbers
+class GFG {
+    static void swapValuesUsingThirdVariable(int m, int n)
+    {
+int temp = m;
+m = n;
+n = temp;
+System.out.println("Value of m is " + m + " and Value of n is " + n);
+    }
+public static void main(String[] args)
+    {
+        int m = 9, n = 5;
+        swapValuesUsingThirdVariable(m, n);
+  }
 
 
